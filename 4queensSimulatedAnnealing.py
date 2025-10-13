@@ -52,4 +52,5 @@ def simulated_annealing_nqueens(N=4, max_steps=1000, start_temp=100, cooling_rat
 
 solution = simulated_annealing_nqueens(4)
 print("Final Solution:", solution)
+
 print("Conflicts:", calculate_conflicts(solution))
